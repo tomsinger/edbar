@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<overlay id="Scrapper-Overlay"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://edbar/content/edbar.js" />
+  <toolbox id="navigator-toolbox">
+    <toolbar id="EdBarToolbar" toolbarname="EdBar Toolbar" >
+      <toolbarbutton id="EdBarEditContentButton" label="Edit Content" oncommand="EdBarEditContent(event)" />
+      <toolbarbutton id="EdBarSiteDownButton" label="Site Down" oncommand="EdBarSiteDown(event)" />
+      <label id="EdBarAkamaiStatusLabel" value="Akamai Status:" />
+      <label id="EdBarAkamaiStatus" value="Unknown" />
+      <toolbarbutton id="EdBarDisableAkamaiButton" label="Disable" oncommand="EdBarDisableAkamai(event)" />
+      <label id="EdBarDrupalStatusLabel" value="Drupal Status:" />
+      <label id="EdBarDrupalStatus" value="Unknown" />
+      <label id="EdBarZTMStatusLabel" value="ZTM Status:" />
+      <label id="EdBarZTMStatus" value="Unknown" />
+      <menulist id="EdBarEnvSelector" oncommand="EdBarEnvSwitch(event)" />
+    </toolbar>
+  </toolbox>
+</overlay>
