@@ -229,7 +229,7 @@ Components.classes["@mozilla.org/observer-service;1"]
         if (url) { // @todo only set headers for urls we care about && url.match("^http://www.example.com/")) {
           aSubject.setRequestHeader("Pragma", "akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-nonces, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no", true);
           if (!edBar.getAkamaiEnabled()) {
-            aSubject.setRequestHeader("X-edbar-Cache-Control", "no-store", true);
+            aSubject.setRequestHeader("X-edbar-Cache-Control", "bypass-cache", true);
           }
         }
       }
