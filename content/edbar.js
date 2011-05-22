@@ -19,10 +19,10 @@ function EdBarEnvSwitch(event) {
 
 function EdBarEnvSelectorRebuild(newUrl) {
   var urls = new Object();
-  urls["Google UK"] = "www.google.co.uk";
-  urls["Google Global"] = "www.google.com";
-  urls["Google US"] = "www.google.us";
-  urls["Google FR"] = "www.google.fr";
+  urls["Dev"] = "dev.www.example.com";
+  urls["QA"] = "qa.www.example.com";
+  urls["Stage"] = "stage.www.example.com";
+  urls["Live"] = "www.example.com";
 
   var protocolEnd = newUrl.indexOf("://") + 3;
   var currentHost = newUrl.substring(protocolEnd, newUrl.indexOf("/", protocolEnd));
