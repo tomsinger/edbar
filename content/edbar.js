@@ -1,9 +1,5 @@
 /* See LICENSE file for licensing details */
 
-function EdBarSiteDown(event) {
-  window._content.document.location = "mailto:tomsinger@gmail.com&subject=[edbar] Site Down&body=Please Enter Any details Here\n\nPlease do not change any information below this line.\n\n---------------------------------------------\n\nDebug follows:";
-}
-
 function EdBarEnvSwitch(event) {
   var newHost = document.getElementById("EdBarEnvSelector").value;
   currentUrl = window._content.document.location.toString();

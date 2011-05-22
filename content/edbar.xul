@@ -5,7 +5,6 @@ xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <toolbox id="navigator-toolbox">
     <toolbar id="EdBarToolbar" toolbarname="EdBar Toolbar" >
       <toolbarbutton id="EdBarEditContentButton" label="Edit Content" oncommand="EdBarEditContent(event)" />
-      <toolbarbutton id="EdBarSiteDownButton" label="Site Down" oncommand="EdBarSiteDown(event)" />
       <label id="EdBarAkamaiStatusLabel" value="Akamai Status:" />
       <label id="EdBarAkamaiStatus" value="Unknown" />
       <toolbarbutton id="EdBarDisableAkamaiButton" label="Disable" oncommand="EdBarDisableAkamai(event)" />
