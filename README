@@ -2,18 +2,4 @@ edbar is designed to allow editorial staff and developers working on sites easy 
 
 Licensed under The MIT License, see LICENSE file for details
 
-
-@todo loads of docs about how and why, they will come soon after the massive refactor I need to do!
-
-Global listener fires before url load listener
-
-Authenticate against relevant CMS and use keep-alive, CMS sends profile configuration
-Auto detect site and use relevant profile if available
-	Eventually move to centralised so can admin Drupal/Bespoke CMS
-Edit content button (use embedded meta data)
-View as mobile device?
-Log all data to send error report including all headers from homepage
-	Add timing data to all page elements to determine slow elements
-	Advert issues takes full generated source dump
-
-Add debug switch to enable/disable Firebug console logging
+Documentation is in the github wiki at https://github.com/tomsinger/edbar/wiki
