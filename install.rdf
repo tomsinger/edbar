@@ -3,13 +3,13 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>edbar@89pies.com</em:id>
     <em:name>edbar</em:name>
-    <em:version>0.5</em:version>
+    <em:version>0.6</em:version>
 
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>3.6.*</em:maxVersion>
+        <em:maxVersion>14.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
